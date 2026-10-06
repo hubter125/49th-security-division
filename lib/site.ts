@@ -10,7 +10,7 @@ export const site = {
     "UNC Charlotte's collegiate cybersecurity club — competitive cyber defense, offensive security, and a six-week bootcamp.",
 
   links: {
-    discord: "https://discord.gg/your-invite-code",
+    discord: "https://discord.gg/mGqmYteXPf",
     ninerEngage: "https://ninerengage.charlotte.edu/organization/your-org",
     github: "https://github.com/49thSecurityDivision",
   },
