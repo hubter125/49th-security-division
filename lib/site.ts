@@ -11,7 +11,7 @@ export const site = {
 
   links: {
     discord: "https://discord.gg/mGqmYteXPf",
-    ninerEngage: "https://ninerengage.charlotte.edu/organization/your-org",
+    ninerEngage: "https://ninerengage.charlotte.edu/organization/49sd",
     github: "https://github.com/49thSecurityDivision",
   },
 
