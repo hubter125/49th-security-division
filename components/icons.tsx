@@ -21,31 +21,17 @@ export function DiscordIcon({ size = 18, ...props }: IconProps) {
 }
 
 /** Placeholder club emblem — a shield with "49". Swap for the real crest SVG. */
-export function Emblem({ size = 36, ...props }: IconProps) {
-  return (
-    <svg viewBox="0 0 40 44" width={size} height={(size * 44) / 40} aria-hidden="true" {...props}>
-      <path
-        d="M20 1.5 37 7.6v12.6c0 10.4-7.1 18.9-17 22.3C10.1 39.1 3 30.6 3 20.2V7.6L20 1.5Z"
-        fill="#0d1a14"
-        stroke="#00703C"
-        strokeWidth="2"
-      />
-      <path d="M20 6.2 32.6 10.7v9.5c0 7.9-5.2 14.6-12.6 17.5V6.2Z" fill="#00703C" opacity=".22" />
-      <text
-        x="20"
-        y="27"
-        textAnchor="middle"
-        fontFamily="JetBrains Mono Variable, ui-monospace, monospace"
-        fontSize="14"
-        fontWeight="800"
-        fill="#A49665"
-      >
-        49
-      </text>
-    </svg>
-  );
-}
-
+   export function Emblem({ size = 36 }: { size?: number }) {
+     return (
+       <img
+         src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/logo.png`}
+         alt=""
+         width={size}
+         height={size}
+         style={{ objectFit: "contain" }}
+       />
+     );
+   }
 export function LinkedinIcon({ size = 18, ...props }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" width={size} height={size} fill="currentColor" aria-hidden="true" {...props}>
