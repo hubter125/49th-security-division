@@ -1,18 +1,8 @@
 import { ArrowRight, Trophy } from "lucide-react";
 import { site } from "@/lib/site";
-import { accolades, partners } from "@/lib/data";
+import { partners } from "@/lib/data";
 
 export default function Hero() {
-  const years = accolades.map((a) => a.year);
-  const seasons = Math.max(...years) - Math.min(...years) + 1;
-
-  const stats = [
-    { value: "1st", label: "Place, 2025 Army National Guard CTF" },
-    { value: String(accolades.length), label: "Top-tier national & regional finishes" },
-    { value: String(seasons), label: "Consecutive competitive seasons" },
-    { value: "40+", label: "Students in our six-week bootcamp" },
-  ];
-
   return (
     <section id="about" className="relative isolate overflow-hidden">
       <div className="bg-grid absolute inset-0 -z-10 opacity-70" aria-hidden="true" />
@@ -21,7 +11,7 @@ export default function Hero() {
         aria-hidden="true"
       />
 
-      <div className="mx-auto grid max-w-6xl gap-14 px-4 pb-20 pt-16 sm:px-6 md:pt-24 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+      <div className="mx-auto grid max-w-6xl gap-14 px-4 pb-20 pt-16 sm:px-6 md:pt-24">
         <div>
           <p className="eyebrow mb-5 flex items-center gap-2">
             <span className="h-1.5 w-1.5 rounded-full bg-niner-bright" />
@@ -57,26 +47,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* At a glance */}
-        <div className="panel overflow-hidden shadow-2xl shadow-black/40">
-          <div className="flex items-center justify-between border-b border-white/[0.07] px-6 py-4">
-            <p className="text-sm font-semibold text-white">Program at a glance</p>
-            <span className="text-xs text-slate-500">
-              {Math.min(...years)}–{Math.max(...years)}
-            </span>
-          </div>
-          <dl className="grid grid-cols-2">
-            {stats.map((s, i) => (
-              <div
-                key={s.label}
-                className={`flex flex-col-reverse px-6 py-6 ${i % 2 === 0 ? "border-r" : ""} ${i < 2 ? "border-b" : ""} border-white/[0.07]`}
-              >
-                <dt className="mt-1.5 text-[13px] leading-snug text-slate-400">{s.label}</dt>
-                <dd className="text-3xl font-bold tracking-tight text-white">{s.value}</dd>
-              </div>
-            ))}
-          </dl>
-        </div>
       </div>
 
       {/* Supported-by strip */}
