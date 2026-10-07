@@ -11,6 +11,7 @@ const sections = [
   { href: "#programs", label: "Programs" },
   { href: "#blog", label: "Blog" },
   { href: "#leadership", label: "Leadership" },
+  { href: "#donate", label: "Donate" },
 ];
 
 const external = [

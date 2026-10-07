@@ -15,8 +15,16 @@ export const site = {
     github: "https://github.com/49thSecurityDivision",
   },
 
+  /** Individual donations, processed by HCB (Hack Club's fiscal sponsorship platform). */
+  donate: {
+    url: "https://hcb.hackclub.com/donations/start/49thsecuritydivision",
+    /** Nonprofit that runs HCB and receives donations (what makes them tax-deductible). */
+    fiscalSponsor: "Hack Club",
+    ein: "81-2908499",
+  },
+
   contact: {
-    email: "49SD@gmail.com",
+    email: "49thsd@gmail.com",
     /** Optional: set to a Google Form / Typeform URL to use it instead of mailto. */
     formUrl: "",
   },

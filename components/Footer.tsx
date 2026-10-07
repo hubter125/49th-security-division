@@ -69,6 +69,7 @@ export default function Footer() {
                 ["#blog", "Blog"],
                 ["#leadership", "Leadership"],
                 ["#sponsors", "Partner With Us"],
+                ["#donate", "Donate"],
               ].map(([href, label]) => (
                 <li key={href}>
                   <a href={href} className="text-slate-400 transition hover:text-white">

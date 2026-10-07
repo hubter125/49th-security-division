@@ -5,6 +5,7 @@ import TrainingTracks from "@/components/TrainingTracks";
 import ComingSoon from "@/components/ComingSoon";
 import Officers from "@/components/Officers";
 import Sponsors from "@/components/Sponsors";
+import Donate from "@/components/Donate";
 import Footer from "@/components/Footer";
 
 /**
@@ -28,6 +29,7 @@ export default function Home() {
         <ComingSoon />
         <Officers />
         <Sponsors />
+        <Donate />
       </main>
       <Footer />
     </>
