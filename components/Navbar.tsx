@@ -8,6 +8,7 @@ import { DiscordIcon, Emblem, GithubIcon } from "./icons";
 const sections = [
   { href: "#about", label: "About" },
   { href: "#accolades", label: "Results" },
+  { href: "#join", label: "Join" },
   { href: "#programs", label: "Programs" },
   { href: "#blog", label: "Blog" },
   { href: "#leadership", label: "Leadership" },

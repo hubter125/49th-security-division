@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Accomplishments from "@/components/Accomplishments";
+import JoinTeam from "@/components/JoinTeam";
 import TrainingTracks from "@/components/TrainingTracks";
 import ComingSoon from "@/components/ComingSoon";
 import Officers from "@/components/Officers";
@@ -25,6 +26,7 @@ export default function Home() {
       <main id="main">
         <Hero />
         <Accomplishments />
+        <JoinTeam />
         <TrainingTracks />
         <ComingSoon />
         <Officers />

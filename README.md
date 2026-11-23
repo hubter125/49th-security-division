@@ -27,6 +27,7 @@ BASE_PATH=/my-repo npm run build
 | What | Where |
 | --- | --- |
 | Discord / Niner Engage / GitHub links, contact email, form URL, meeting info | `lib/site.ts` |
+| Competition team interest form (Google Form link) | `lib/site.ts` → `competitionTeam` |
 | Competition results (the timeline and hero stats update automatically) | `lib/data.ts` |
 | Training tracks | `components/TrainingTracks.tsx` |
 | Sponsors / partners | `components/Sponsors.tsx` |

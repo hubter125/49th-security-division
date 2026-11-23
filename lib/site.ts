@@ -29,6 +29,14 @@ export const site = {
     formUrl: "",
   },
 
+  /** Student interest form for the competition team (Google Form). */
+  competitionTeam: {
+    formUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLSd_Q135GdhpyICCbFXmXL52Eht_S16YuwYbUMSGjyoeUZDq2w/viewform",
+    embedUrl:
+      "https://docs.google.com/forms/d/e/1FAIpQLSd_Q135GdhpyICCbFXmXL52Eht_S16YuwYbUMSGjyoeUZDq2w/viewform?embedded=true",
+  },
+
   meetings: {
     cadence: "Weekly meetings",
     day: "Wednesday 4-5pm",
